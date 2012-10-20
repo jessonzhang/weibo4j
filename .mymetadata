@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="weibo4j"
+  id="myeclipse.1346230946399"
+  context-root="/weibo4j-oauth2"
+  j2ee-spec="5.0"
+  archive="weibo4j.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

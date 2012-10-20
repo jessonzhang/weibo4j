@@ -1,0 +1,361 @@
+0    INFO  [2012-09-04 10:51:39]  code: 2d
+62   DEBUG [2012-09-04 10:51:39]  Request:
+62   DEBUG [2012-09-04 10:51:39]  POSThttps://api.weibo.com/oauth2/access_token
+916  DEBUG [2012-09-04 10:51:40]  Response:
+916  DEBUG [2012-09-04 10:51:40]  https StatusCode:400
+916  DEBUG [2012-09-04 10:51:40]  Server:nginx/1.1.17
+916  DEBUG [2012-09-04 10:51:40]  Date:Tue, 04 Sep 2012 02:51:36 GMT
+916  DEBUG [2012-09-04 10:51:40]  Content-Length:120
+917  DEBUG [2012-09-04 10:51:40]  Connection:keep-alive
+917  DEBUG [2012-09-04 10:51:40]  Pragma:No-cache
+917  DEBUG [2012-09-04 10:51:40]  Cache-Control:no-cache
+917  DEBUG [2012-09-04 10:51:40]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+917  DEBUG [2012-09-04 10:51:40]  Api-Server-IP:10.75.25.115
+918  DEBUG [2012-09-04 10:51:40]  X-Varnish:610365372
+918  DEBUG [2012-09-04 10:51:40]  Age:0
+918  DEBUG [2012-09-04 10:51:40]  Via:1.1 varnish
+922  DEBUG [2012-09-04 10:51:40]  {"error":"redirect_uri_mismatch","error_code":21322,"request":"/oauth2/access_token","error_uri":"/oauth2/access_token"}
+
+0    INFO  [2012-09-04 13:26:37]  code: code
+39   DEBUG [2012-09-04 13:26:37]  Request:
+39   DEBUG [2012-09-04 13:26:37]  POSThttps://api.weibo.com/oauth2/access_token
+1119 DEBUG [2012-09-04 13:26:38]  Response:
+1119 DEBUG [2012-09-04 13:26:38]  https StatusCode:400
+1119 DEBUG [2012-09-04 13:26:38]  Server:nginx/1.0.15
+1120 DEBUG [2012-09-04 13:26:38]  Date:Tue, 04 Sep 2012 05:26:33 GMT
+1120 DEBUG [2012-09-04 13:26:38]  Connection:keep-alive
+1120 DEBUG [2012-09-04 13:26:38]  Pragma:No-cache
+1120 DEBUG [2012-09-04 13:26:38]  Cache-Control:no-cache
+1120 DEBUG [2012-09-04 13:26:38]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+1120 DEBUG [2012-09-04 13:26:38]  Api-Server-IP:10.75.25.115
+1120 DEBUG [2012-09-04 13:26:38]  Content-Length:166
+1121 DEBUG [2012-09-04 13:26:38]  X-Varnish:809886885
+1121 DEBUG [2012-09-04 13:26:38]  Age:0
+1121 DEBUG [2012-09-04 13:26:38]  Via:1.1 varnish
+1125 DEBUG [2012-09-04 13:26:38]  {"error":"invalid_grant","error_code":21325,"request":"/oauth2/access_token","error_uri":"/oauth2/access_token","error_description":"invalid authorization code:code"}
+
+0    INFO  [2012-09-04 13:27:34]  code: 47e19fe1b516f137f5239c19cd8926a5
+39   DEBUG [2012-09-04 13:27:34]  Request:
+39   DEBUG [2012-09-04 13:27:34]  POSThttps://api.weibo.com/oauth2/access_token
+737  DEBUG [2012-09-04 13:27:35]  Response:
+738  DEBUG [2012-09-04 13:27:35]  https StatusCode:200
+738  DEBUG [2012-09-04 13:27:35]  Server:nginx/1.1.17
+738  DEBUG [2012-09-04 13:27:35]  Date:Tue, 04 Sep 2012 05:27:30 GMT
+738  DEBUG [2012-09-04 13:27:35]  Content-Type:text/plain;charset=UTF-8
+738  DEBUG [2012-09-04 13:27:35]  Content-Length:111
+738  DEBUG [2012-09-04 13:27:35]  Connection:keep-alive
+739  DEBUG [2012-09-04 13:27:35]  Pragma:No-cache
+739  DEBUG [2012-09-04 13:27:35]  Cache-Control:no-cache
+739  DEBUG [2012-09-04 13:27:35]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+739  DEBUG [2012-09-04 13:27:35]  Api-Server-IP:10.75.25.114
+739  DEBUG [2012-09-04 13:27:35]  X-Varnish:3757065185
+739  DEBUG [2012-09-04 13:27:35]  Age:0
+739  DEBUG [2012-09-04 13:27:35]  Via:1.1 varnish
+743  DEBUG [2012-09-04 13:27:35]  {"access_token":"2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC","remind_in":"135148","expires_in":135148,"uid":"2574125704"}
+
+0    INFO  [2012-09-04 13:32:40]  code: 192eee245f33d6acdc6ab9ca6bfcb346
+49   DEBUG [2012-09-04 13:32:41]  Request:
+49   DEBUG [2012-09-04 13:32:41]  POSThttps://api.weibo.com/oauth2/access_token
+540  DEBUG [2012-09-04 13:32:41]  Response:
+541  DEBUG [2012-09-04 13:32:41]  https StatusCode:200
+541  DEBUG [2012-09-04 13:32:41]  Server:nginx/1.2.0
+541  DEBUG [2012-09-04 13:32:41]  Date:Tue, 04 Sep 2012 05:32:36 GMT
+541  DEBUG [2012-09-04 13:32:41]  Content-Type:text/plain;charset=UTF-8
+541  DEBUG [2012-09-04 13:32:41]  Content-Length:111
+542  DEBUG [2012-09-04 13:32:41]  Connection:keep-alive
+542  DEBUG [2012-09-04 13:32:41]  Pragma:No-cache
+542  DEBUG [2012-09-04 13:32:41]  Cache-Control:no-cache
+542  DEBUG [2012-09-04 13:32:41]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+542  DEBUG [2012-09-04 13:32:41]  Api-Server-IP:10.75.25.86
+542  DEBUG [2012-09-04 13:32:41]  X-Varnish:3898058669
+543  DEBUG [2012-09-04 13:32:41]  Age:0
+543  DEBUG [2012-09-04 13:32:41]  Via:1.1 varnish
+547  DEBUG [2012-09-04 13:32:41]  {"access_token":"2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC","remind_in":"135148","expires_in":135148,"uid":"2574125704"}
+
+0    DEBUG [2012-09-04 13:33:11]  Request:
+1    DEBUG [2012-09-04 13:33:11]  GET:https://api.weibo.com/2/users/show.json
+47   DEBUG [2012-09-04 13:33:11]  Authorization: OAuth2 [accessToken=2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC,
+47   DEBUG [2012-09-04 13:33:11]  API-RemoteIP: 192.168.0.139
+626  DEBUG [2012-09-04 13:33:12]  Response:
+627  DEBUG [2012-09-04 13:33:12]  https StatusCode:403
+627  DEBUG [2012-09-04 13:33:12]  Server:nginx/1.1.17
+627  DEBUG [2012-09-04 13:33:12]  Date:Tue, 04 Sep 2012 05:33:07 GMT
+627  DEBUG [2012-09-04 13:33:12]  Content-Type:application/json;charset=UTF-8
+627  DEBUG [2012-09-04 13:33:12]  Content-Length:82
+627  DEBUG [2012-09-04 13:33:12]  Connection:keep-alive
+627  DEBUG [2012-09-04 13:33:12]  Api-Server-IP:10.75.5.68
+628  DEBUG [2012-09-04 13:33:12]  Vary:Accept-Encoding
+628  DEBUG [2012-09-04 13:33:12]  X-Varnish:655195950
+628  DEBUG [2012-09-04 13:33:12]  Age:0
+628  DEBUG [2012-09-04 13:33:12]  Via:1.1 varnish
+635  DEBUG [2012-09-04 13:33:12]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    INFO  [2012-09-05 21:57:34]  code: bed4b65d325d46ed91a1b2103e7b7cc5
+132  DEBUG [2012-09-05 21:57:34]  Request:
+132  DEBUG [2012-09-05 21:57:34]  POSThttps://api.weibo.com/oauth2/access_token
+1072 DEBUG [2012-09-05 21:57:35]  Response:
+1072 DEBUG [2012-09-05 21:57:35]  https StatusCode:200
+1073 DEBUG [2012-09-05 21:57:35]  Server:nginx/1.0.15
+1073 DEBUG [2012-09-05 21:57:35]  Date:Wed, 05 Sep 2012 13:57:28 GMT
+1073 DEBUG [2012-09-05 21:57:35]  Content-Type:text/plain;charset=UTF-8
+1073 DEBUG [2012-09-05 21:57:35]  Connection:keep-alive
+1073 DEBUG [2012-09-05 21:57:35]  Pragma:No-cache
+1073 DEBUG [2012-09-05 21:57:35]  Cache-Control:no-cache
+1073 DEBUG [2012-09-05 21:57:35]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+1074 DEBUG [2012-09-05 21:57:35]  Api-Server-IP:10.75.25.115
+1074 DEBUG [2012-09-05 21:57:35]  Content-Length:111
+1075 DEBUG [2012-09-05 21:57:35]  X-Varnish:1228281170
+1075 DEBUG [2012-09-05 21:57:35]  Age:0
+1075 DEBUG [2012-09-05 21:57:35]  Via:1.1 varnish
+1079 DEBUG [2012-09-05 21:57:35]  {"access_token":"2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC","remind_in":"135148","expires_in":135148,"uid":"2574125704"}
+
+0    DEBUG [2012-09-05 22:01:42]  Request:
+1    DEBUG [2012-09-05 22:01:42]  GET:https://api.weibo.com/2/users/show.json
+52   DEBUG [2012-09-05 22:01:42]  Authorization: OAuth2 accessToken=2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC,
+52   DEBUG [2012-09-05 22:01:42]  API-RemoteIP: 192.168.2.109
+524  DEBUG [2012-09-05 22:01:42]  Response:
+524  DEBUG [2012-09-05 22:01:42]  https StatusCode:403
+524  DEBUG [2012-09-05 22:01:42]  Server:nginx/1.2.0
+524  DEBUG [2012-09-05 22:01:42]  Date:Wed, 05 Sep 2012 14:01:35 GMT
+525  DEBUG [2012-09-05 22:01:42]  Content-Type:application/json;charset=UTF-8
+525  DEBUG [2012-09-05 22:01:42]  Content-Length:82
+525  DEBUG [2012-09-05 22:01:42]  Connection:keep-alive
+525  DEBUG [2012-09-05 22:01:42]  Api-Server-IP:10.75.5.67
+525  DEBUG [2012-09-05 22:01:42]  Vary:Accept-Encoding
+525  DEBUG [2012-09-05 22:01:42]  X-Varnish:20945581
+526  DEBUG [2012-09-05 22:01:42]  Age:0
+526  DEBUG [2012-09-05 22:01:42]  Via:1.1 varnish
+533  DEBUG [2012-09-05 22:01:42]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    DEBUG [2012-09-05 23:33:45]  Request:
+1    DEBUG [2012-09-05 23:33:45]  GET:https://api.weibo.com/2/users/show.json
+98   DEBUG [2012-09-05 23:33:45]  Authorization: OAuth2 accessToken=2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC,
+99   DEBUG [2012-09-05 23:33:45]  API-RemoteIP: 192.168.2.109
+1153 DEBUG [2012-09-05 23:33:46]  Response:
+1153 DEBUG [2012-09-05 23:33:46]  https StatusCode:403
+1153 DEBUG [2012-09-05 23:33:46]  Server:nginx/1.1.17
+1153 DEBUG [2012-09-05 23:33:46]  Date:Wed, 05 Sep 2012 15:33:39 GMT
+1153 DEBUG [2012-09-05 23:33:46]  Content-Type:application/json;charset=UTF-8
+1153 DEBUG [2012-09-05 23:33:46]  Content-Length:82
+1153 DEBUG [2012-09-05 23:33:46]  Connection:keep-alive
+1154 DEBUG [2012-09-05 23:33:46]  Api-Server-IP:10.75.5.63
+1154 DEBUG [2012-09-05 23:33:46]  Vary:Accept-Encoding
+1154 DEBUG [2012-09-05 23:33:46]  X-Varnish:4200241147
+1154 DEBUG [2012-09-05 23:33:46]  Age:0
+1154 DEBUG [2012-09-05 23:33:46]  Via:1.1 varnish
+1178 DEBUG [2012-09-05 23:33:46]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    DEBUG [2012-09-05 23:34:43]  Request:
+1    DEBUG [2012-09-05 23:34:43]  GET:https://api.weibo.com/2/users/show.json
+40   DEBUG [2012-09-05 23:34:43]  Authorization: OAuth2 accessToken=2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+40   DEBUG [2012-09-05 23:34:43]  API-RemoteIP: 192.168.2.109
+840  DEBUG [2012-09-05 23:34:44]  Response:
+841  DEBUG [2012-09-05 23:34:44]  https StatusCode:403
+841  DEBUG [2012-09-05 23:34:44]  Server:nginx/1.2.0
+841  DEBUG [2012-09-05 23:34:44]  Date:Wed, 05 Sep 2012 15:34:37 GMT
+841  DEBUG [2012-09-05 23:34:44]  Content-Type:application/json;charset=UTF-8
+841  DEBUG [2012-09-05 23:34:44]  Content-Length:82
+841  DEBUG [2012-09-05 23:34:44]  Connection:keep-alive
+841  DEBUG [2012-09-05 23:34:44]  Api-Server-IP:10.75.24.206
+841  DEBUG [2012-09-05 23:34:44]  Vary:Accept-Encoding
+842  DEBUG [2012-09-05 23:34:44]  X-Varnish:1095492856
+842  DEBUG [2012-09-05 23:34:44]  Age:0
+842  DEBUG [2012-09-05 23:34:44]  Via:1.1 varnish
+847  DEBUG [2012-09-05 23:34:44]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    DEBUG [2012-09-05 23:40:10]  Request:
+1    DEBUG [2012-09-05 23:40:10]  POSThttps://api.weibo.com/2/statuses/update.json
+86   DEBUG [2012-09-05 23:40:10]  Authorization: OAuth2 2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+86   DEBUG [2012-09-05 23:40:10]  API-RemoteIP: 192.168.2.109
+931  DEBUG [2012-09-05 23:40:11]  Response:
+931  DEBUG [2012-09-05 23:40:11]  https StatusCode:200
+931  DEBUG [2012-09-05 23:40:11]  Server:nginx/1.2.0
+931  DEBUG [2012-09-05 23:40:11]  Date:Wed, 05 Sep 2012 15:40:04 GMT
+931  DEBUG [2012-09-05 23:40:11]  Content-Type:application/json;charset=UTF-8
+931  DEBUG [2012-09-05 23:40:11]  Content-Length:1192
+931  DEBUG [2012-09-05 23:40:11]  Connection:keep-alive
+931  DEBUG [2012-09-05 23:40:11]  Api-Server-IP:10.75.24.200
+931  DEBUG [2012-09-05 23:40:11]  Vary:Accept-Encoding
+931  DEBUG [2012-09-05 23:40:11]  X-Varnish:1254617570
+932  DEBUG [2012-09-05 23:40:11]  Age:0
+932  DEBUG [2012-09-05 23:40:11]  Via:1.1 varnish
+935  DEBUG [2012-09-05 23:40:11]  {"created_at":"Wed Sep 05 23:40:01 +0800 2012","id":3487044276257500,"mid":"3487044276257500","idstr":"3487044276257500","text":"此条微博来自星光发布系统发布","source":"<a href=\"http://open.t.sina.com.cn\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"user":{"id":2574125704,"idstr":"2574125704","screen_name":"jackbarony","name":"jackbarony","province":"31","city":"1000","location":"上海","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2574125704/50/0/1","profile_url":"u/2574125704","domain":"","weihao":"","gender":"m","followers_count":0,"friends_count":0,"statuses_count":0,"favourites_count":0,"created_at":"Tue Jun 19 22:34:49 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2574125704/180/0/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn"},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+1086 INFO  [2012-09-05 23:40:11]  Status [user=User [id=2574125704, screenName=jackbarony, name=jackbarony, province=31, city=1000, location=上海, description=, url=, profileImageUrl=http://tp1.sinaimg.cn/2574125704/50/0/1, userDomain=, gender=m, followersCount=0, friendsCount=0, statusesCount=0, favouritesCount=0, createdAt=Tue Jun 19 22:34:49 CST 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2574125704/180/0/1, onlineStatus=0, status=null, biFollowersCount=0, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3487044276257500, createdAt=Wed Sep 05 23:40:01 CST 2012, id=3487044276257500, text=此条微博来自星光发布系统发布, source=Source [url=http://open.t.sina.com.cn, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3487044276257500, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2012-09-05 23:44:26]  Request:
+1    DEBUG [2012-09-05 23:44:26]  POSThttps://api.weibo.com/2/statuses/update.json
+62   DEBUG [2012-09-05 23:44:26]  Authorization: OAuth2 2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+62   DEBUG [2012-09-05 23:44:26]  API-RemoteIP: 192.168.2.109
+0    DEBUG [2012-09-05 23:44:39]  Request:
+1    DEBUG [2012-09-05 23:44:39]  POSThttps://api.weibo.com/2/statuses/update.json
+64   DEBUG [2012-09-05 23:44:39]  Authorization: OAuth2 2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+64   DEBUG [2012-09-05 23:44:39]  API-RemoteIP: 192.168.2.109
+704  DEBUG [2012-09-05 23:44:40]  Response:
+704  DEBUG [2012-09-05 23:44:40]  https StatusCode:200
+704  DEBUG [2012-09-05 23:44:40]  Server:nginx/1.2.0
+704  DEBUG [2012-09-05 23:44:40]  Date:Wed, 05 Sep 2012 15:44:33 GMT
+704  DEBUG [2012-09-05 23:44:40]  Content-Type:application/json;charset=UTF-8
+704  DEBUG [2012-09-05 23:44:40]  Content-Length:1174
+704  DEBUG [2012-09-05 23:44:40]  Connection:keep-alive
+705  DEBUG [2012-09-05 23:44:40]  Api-Server-IP:10.75.5.60
+705  DEBUG [2012-09-05 23:44:40]  Vary:Accept-Encoding
+705  DEBUG [2012-09-05 23:44:40]  X-Varnish:47063707
+705  DEBUG [2012-09-05 23:44:40]  Age:0
+705  DEBUG [2012-09-05 23:44:40]  Via:1.1 varnish
+708  DEBUG [2012-09-05 23:44:40]  {"created_at":"Wed Sep 05 23:44:34 +0800 2012","id":3487045404224564,"mid":"3487045404224564","idstr":"3487045404224564","text":"阿杰发了一条微博","source":"<a href=\"http://open.t.sina.com.cn\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"user":{"id":2574125704,"idstr":"2574125704","screen_name":"jackbarony","name":"jackbarony","province":"31","city":"1000","location":"上海","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2574125704/50/0/1","profile_url":"u/2574125704","domain":"","weihao":"","gender":"m","followers_count":0,"friends_count":0,"statuses_count":0,"favourites_count":0,"created_at":"Tue Jun 19 22:34:49 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2574125704/180/0/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn"},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+725  INFO  [2012-09-05 23:44:40]  Status [user=User [id=2574125704, screenName=jackbarony, name=jackbarony, province=31, city=1000, location=上海, description=, url=, profileImageUrl=http://tp1.sinaimg.cn/2574125704/50/0/1, userDomain=, gender=m, followersCount=0, friendsCount=0, statusesCount=0, favouritesCount=0, createdAt=Tue Jun 19 22:34:49 CST 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2574125704/180/0/1, onlineStatus=0, status=null, biFollowersCount=0, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3487045404224564, createdAt=Wed Sep 05 23:44:34 CST 2012, id=3487045404224564, text=阿杰发了一条微博, source=Source [url=http://open.t.sina.com.cn, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3487045404224564, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2012-09-05 23:50:20]  Request:
+1    DEBUG [2012-09-05 23:50:20]  POSThttps://api.weibo.com/2/statuses/update.json
+76   DEBUG [2012-09-05 23:50:20]  Authorization: OAuth2 2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+76   DEBUG [2012-09-05 23:50:20]  API-RemoteIP: 192.168.2.109
+747  DEBUG [2012-09-05 23:50:21]  Response:
+747  DEBUG [2012-09-05 23:50:21]  https StatusCode:400
+747  DEBUG [2012-09-05 23:50:21]  Server:nginx/1.1.17
+748  DEBUG [2012-09-05 23:50:21]  Date:Wed, 05 Sep 2012 15:50:14 GMT
+748  DEBUG [2012-09-05 23:50:21]  Content-Type:application/json;charset=UTF-8
+748  DEBUG [2012-09-05 23:50:21]  Content-Length:82
+749  DEBUG [2012-09-05 23:50:21]  Connection:keep-alive
+749  DEBUG [2012-09-05 23:50:21]  Api-Server-IP:10.75.5.63
+749  DEBUG [2012-09-05 23:50:21]  Vary:Accept-Encoding
+749  DEBUG [2012-09-05 23:50:21]  X-Varnish:48179075
+749  DEBUG [2012-09-05 23:50:21]  Age:0
+749  DEBUG [2012-09-05 23:50:21]  Via:1.1 varnish
+753  DEBUG [2012-09-05 23:50:21]  {"error":"repeat content!","error_code":20019,"request":"/2/statuses/update.json"}
+
+0    DEBUG [2012-09-05 23:54:37]  Request:
+1    DEBUG [2012-09-05 23:54:37]  GET:https://api.weibo.com/2/users/show.json
+55   DEBUG [2012-09-05 23:54:37]  Authorization: OAuth2 2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+55   DEBUG [2012-09-05 23:54:37]  API-RemoteIP: 192.168.2.109
+0    DEBUG [2012-09-05 23:54:49]  Request:
+1    DEBUG [2012-09-05 23:54:49]  GET:https://api.weibo.com/2/users/show.json
+54   DEBUG [2012-09-05 23:54:49]  Authorization: OAuth2 2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+54   DEBUG [2012-09-05 23:54:49]  API-RemoteIP: 192.168.2.109
+510  DEBUG [2012-09-05 23:54:50]  Response:
+510  DEBUG [2012-09-05 23:54:50]  https StatusCode:200
+510  DEBUG [2012-09-05 23:54:50]  Server:nginx/1.2.0
+510  DEBUG [2012-09-05 23:54:50]  Date:Wed, 05 Sep 2012 15:54:43 GMT
+511  DEBUG [2012-09-05 23:54:50]  Content-Type:application/json;charset=UTF-8
+511  DEBUG [2012-09-05 23:54:50]  Content-Length:1163
+511  DEBUG [2012-09-05 23:54:50]  Connection:keep-alive
+511  DEBUG [2012-09-05 23:54:50]  Api-Server-IP:10.75.0.173
+511  DEBUG [2012-09-05 23:54:50]  Vary:Accept-Encoding
+511  DEBUG [2012-09-05 23:54:50]  X-Varnish:1257472153
+511  DEBUG [2012-09-05 23:54:50]  Age:0
+511  DEBUG [2012-09-05 23:54:50]  Via:1.1 varnish
+516  DEBUG [2012-09-05 23:54:50]  {"id":2574125704,"idstr":"2574125704","screen_name":"jackbarony","name":"jackbarony","province":"31","city":"1000","location":"上海","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2574125704/50/0/1","profile_url":"u/2574125704","domain":"","weihao":"","gender":"m","followers_count":0,"friends_count":1,"statuses_count":3,"favourites_count":0,"created_at":"Tue Jun 19 22:34:49 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Wed Sep 05 23:44:34 +0800 2012","id":3487045404224564,"mid":"3487045404224564","idstr":"3487045404224564","text":"阿杰发了一条微博","source":"<a href=\"\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}},"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2574125704/180/0/1","verified_reason":"","follow_me":false,"online_status":1,"bi_followers_count":0,"lang":"zh-cn"}
+
+0    DEBUG [2012-09-08 22:05:57]  Request:
+59   DEBUG [2012-09-08 22:05:57]  GET:https://api.weibo.com/2/users/show.json
+1733 DEBUG [2012-09-08 22:05:59]  Authorization: OAuth2 2.00WglMoCNRSxPEcb9ac5f1c4L5EIOC
+1733 DEBUG [2012-09-08 22:05:59]  API-RemoteIP: 192.168.2.109
+7782 DEBUG [2012-09-08 22:06:05]  Response:
+7782 DEBUG [2012-09-08 22:06:05]  https StatusCode:400
+7782 DEBUG [2012-09-08 22:06:05]  Server:nginx/1.1.17
+7783 DEBUG [2012-09-08 22:06:05]  Date:Sat, 08 Sep 2012 14:05:51 GMT
+7783 DEBUG [2012-09-08 22:06:05]  Content-Type:application/json;charset=UTF-8
+7783 DEBUG [2012-09-08 22:06:05]  Content-Length:75
+7783 DEBUG [2012-09-08 22:06:05]  Connection:keep-alive
+7783 DEBUG [2012-09-08 22:06:05]  Api-Server-IP:10.75.5.57
+7783 DEBUG [2012-09-08 22:06:05]  Vary:Accept-Encoding
+7783 DEBUG [2012-09-08 22:06:05]  X-Varnish:850411957
+7784 DEBUG [2012-09-08 22:06:05]  Age:0
+7784 DEBUG [2012-09-08 22:06:05]  Via:1.1 varnish
+7841 DEBUG [2012-09-08 22:06:05]  {"error":"expired_token","error_code":21327,"request":"/2/users/show.json"}
+
+0    INFO  [2012-09-08 22:07:42]  code: f6a640628c786e5c3fced11046ab8da3
+66   DEBUG [2012-09-08 22:07:43]  Request:
+66   DEBUG [2012-09-08 22:07:43]  POSThttps://api.weibo.com/oauth2/access_token
+0    INFO  [2012-09-08 22:08:18]  code: a4f1b5a1e8fa92f3d1cf2808e4448883
+41   DEBUG [2012-09-08 22:08:18]  Request:
+41   DEBUG [2012-09-08 22:08:18]  POSThttps://api.weibo.com/oauth2/access_token
+709  DEBUG [2012-09-08 22:08:19]  Response:
+709  DEBUG [2012-09-08 22:08:19]  https StatusCode:200
+709  DEBUG [2012-09-08 22:08:19]  Server:nginx/1.2.0
+710  DEBUG [2012-09-08 22:08:19]  Date:Sat, 08 Sep 2012 14:08:05 GMT
+710  DEBUG [2012-09-08 22:08:19]  Content-Type:text/plain;charset=UTF-8
+710  DEBUG [2012-09-08 22:08:19]  Content-Length:111
+710  DEBUG [2012-09-08 22:08:19]  Connection:keep-alive
+710  DEBUG [2012-09-08 22:08:19]  Pragma:No-cache
+710  DEBUG [2012-09-08 22:08:19]  Cache-Control:no-cache
+710  DEBUG [2012-09-08 22:08:19]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+711  DEBUG [2012-09-08 22:08:19]  Api-Server-IP:10.75.25.115
+711  DEBUG [2012-09-08 22:08:19]  X-Varnish:1899838087
+711  DEBUG [2012-09-08 22:08:19]  Age:0
+711  DEBUG [2012-09-08 22:08:19]  Via:1.1 varnish
+715  DEBUG [2012-09-08 22:08:19]  {"access_token":"2.00WglMoCNRSxPEa2485d4f63doLbcC","remind_in":"103914","expires_in":103914,"uid":"2574125704"}
+
+0    DEBUG [2012-09-08 22:09:15]  Request:
+1    DEBUG [2012-09-08 22:09:15]  GET:https://api.weibo.com/2/users/show.json
+48   DEBUG [2012-09-08 22:09:15]  Authorization: OAuth2 2.00WglMoCNRSxPEa2485d4f63doLbcC
+48   DEBUG [2012-09-08 22:09:15]  API-RemoteIP: 192.168.2.109
+521  DEBUG [2012-09-08 22:09:15]  Response:
+521  DEBUG [2012-09-08 22:09:15]  https StatusCode:200
+521  DEBUG [2012-09-08 22:09:15]  Server:nginx/1.2.0
+522  DEBUG [2012-09-08 22:09:15]  Date:Sat, 08 Sep 2012 14:09:01 GMT
+522  DEBUG [2012-09-08 22:09:15]  Content-Type:application/json;charset=UTF-8
+522  DEBUG [2012-09-08 22:09:15]  Content-Length:1163
+522  DEBUG [2012-09-08 22:09:15]  Connection:keep-alive
+522  DEBUG [2012-09-08 22:09:15]  Api-Server-IP:10.75.0.175
+522  DEBUG [2012-09-08 22:09:15]  Vary:Accept-Encoding
+523  DEBUG [2012-09-08 22:09:15]  X-Varnish:2060410260
+523  DEBUG [2012-09-08 22:09:15]  Age:0
+523  DEBUG [2012-09-08 22:09:15]  Via:1.1 varnish
+531  DEBUG [2012-09-08 22:09:15]  {"id":2574125704,"idstr":"2574125704","screen_name":"jackbarony","name":"jackbarony","province":"31","city":"1000","location":"上海","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2574125704/50/0/1","profile_url":"u/2574125704","domain":"","weihao":"","gender":"m","followers_count":0,"friends_count":1,"statuses_count":3,"favourites_count":0,"created_at":"Tue Jun 19 22:34:49 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Wed Sep 05 23:44:34 +0800 2012","id":3487045404224564,"mid":"3487045404224564","idstr":"3487045404224564","text":"阿杰发了一条微博","source":"<a href=\"\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}},"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2574125704/180/0/1","verified_reason":"","follow_me":false,"online_status":1,"bi_followers_count":0,"lang":"zh-cn"}
+
+0    DEBUG [2012-09-08 22:10:40]  Request:
+1    DEBUG [2012-09-08 22:10:40]  GET:https://api.weibo.com/2/users/show.json
+50   DEBUG [2012-09-08 22:10:40]  Authorization: OAuth2 2.00WglMoCNRSxPEa2485d4f63doLbcC
+50   DEBUG [2012-09-08 22:10:40]  API-RemoteIP: 192.168.2.109
+515  DEBUG [2012-09-08 22:10:40]  Response:
+515  DEBUG [2012-09-08 22:10:40]  https StatusCode:200
+516  DEBUG [2012-09-08 22:10:40]  Server:nginx/1.2.0
+516  DEBUG [2012-09-08 22:10:40]  Date:Sat, 08 Sep 2012 14:10:26 GMT
+516  DEBUG [2012-09-08 22:10:40]  Content-Type:application/json;charset=UTF-8
+516  DEBUG [2012-09-08 22:10:40]  Content-Length:1163
+516  DEBUG [2012-09-08 22:10:40]  Connection:keep-alive
+516  DEBUG [2012-09-08 22:10:40]  Api-Server-IP:10.75.5.67
+517  DEBUG [2012-09-08 22:10:40]  Vary:Accept-Encoding
+517  DEBUG [2012-09-08 22:10:40]  X-Varnish:1900495677
+517  DEBUG [2012-09-08 22:10:40]  Age:0
+517  DEBUG [2012-09-08 22:10:40]  Via:1.1 varnish
+524  DEBUG [2012-09-08 22:10:40]  {"id":2574125704,"idstr":"2574125704","screen_name":"jackbarony","name":"jackbarony","province":"31","city":"1000","location":"上海","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2574125704/50/0/1","profile_url":"u/2574125704","domain":"","weihao":"","gender":"m","followers_count":0,"friends_count":1,"statuses_count":3,"favourites_count":0,"created_at":"Tue Jun 19 22:34:49 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Wed Sep 05 23:44:34 +0800 2012","id":3487045404224564,"mid":"3487045404224564","idstr":"3487045404224564","text":"阿杰发了一条微博","source":"<a href=\"\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}},"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2574125704/180/0/1","verified_reason":"","follow_me":false,"online_status":1,"bi_followers_count":0,"lang":"zh-cn"}
+
+0    INFO  [2012-09-08 22:28:22]  code: c52a9cff02cca20e7215b18a4b18b147
+39   DEBUG [2012-09-08 22:28:22]  Request:
+40   DEBUG [2012-09-08 22:28:22]  POSThttps://api.weibo.com/oauth2/access_token
+537  DEBUG [2012-09-08 22:28:23]  Response:
+537  DEBUG [2012-09-08 22:28:23]  https StatusCode:200
+537  DEBUG [2012-09-08 22:28:23]  Server:nginx/1.0.15
+537  DEBUG [2012-09-08 22:28:23]  Date:Sat, 08 Sep 2012 14:28:09 GMT
+538  DEBUG [2012-09-08 22:28:23]  Content-Type:text/plain;charset=UTF-8
+538  DEBUG [2012-09-08 22:28:23]  Connection:keep-alive
+538  DEBUG [2012-09-08 22:28:23]  Pragma:No-cache
+538  DEBUG [2012-09-08 22:28:23]  Cache-Control:no-cache
+538  DEBUG [2012-09-08 22:28:23]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+538  DEBUG [2012-09-08 22:28:23]  Api-Server-IP:10.75.25.86
+539  DEBUG [2012-09-08 22:28:23]  Content-Length:111
+539  DEBUG [2012-09-08 22:28:23]  X-Varnish:1905450700
+539  DEBUG [2012-09-08 22:28:23]  Age:0
+539  DEBUG [2012-09-08 22:28:23]  Via:1.1 varnish
+543  DEBUG [2012-09-08 22:28:23]  {"access_token":"2.00WglMoCNRSxPEa2485d4f63doLbcC","remind_in":"103914","expires_in":103914,"uid":"2574125704"}
+
+0    DEBUG [2012-09-08 23:01:22]  Request:
+1    DEBUG [2012-09-08 23:01:22]  POSThttps://api.weibo.com/2/statuses/update.json
+49   DEBUG [2012-09-08 23:01:22]  Authorization: OAuth2 2.00WglMoCNRSxPEa2485d4f63doLbcC
+50   DEBUG [2012-09-08 23:01:22]  API-RemoteIP: 192.168.2.109
+647  DEBUG [2012-09-08 23:01:23]  Response:
+648  DEBUG [2012-09-08 23:01:23]  https StatusCode:200
+648  DEBUG [2012-09-08 23:01:23]  Server:nginx/1.0.15
+648  DEBUG [2012-09-08 23:01:23]  Date:Sat, 08 Sep 2012 15:01:09 GMT
+648  DEBUG [2012-09-08 23:01:23]  Content-Type:application/json;charset=UTF-8
+648  DEBUG [2012-09-08 23:01:23]  Connection:keep-alive
+649  DEBUG [2012-09-08 23:01:23]  Api-Server-IP:10.75.5.56
+649  DEBUG [2012-09-08 23:01:23]  Vary:Accept-Encoding
+649  DEBUG [2012-09-08 23:01:23]  Content-Length:1174
+649  DEBUG [2012-09-08 23:01:23]  X-Varnish:725661523
+649  DEBUG [2012-09-08 23:01:23]  Age:0
+649  DEBUG [2012-09-08 23:01:23]  Via:1.1 varnish
+654  DEBUG [2012-09-08 23:01:23]  {"created_at":"Sat Sep 08 23:01:08 +0800 2012","id":3488121645906478,"mid":"3488121645906478","idstr":"3488121645906478","text":"阿杰发了一条微博","source":"<a href=\"http://open.t.sina.com.cn\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"user":{"id":2574125704,"idstr":"2574125704","screen_name":"jackbarony","name":"jackbarony","province":"31","city":"1000","location":"上海","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2574125704/50/0/1","profile_url":"u/2574125704","domain":"","weihao":"","gender":"m","followers_count":0,"friends_count":0,"statuses_count":0,"favourites_count":0,"created_at":"Tue Jun 19 22:34:49 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2574125704/180/0/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn"},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+683  INFO  [2012-09-08 23:01:23]  Status [user=User [id=2574125704, screenName=jackbarony, name=jackbarony, province=31, city=1000, location=上海, description=, url=, profileImageUrl=http://tp1.sinaimg.cn/2574125704/50/0/1, userDomain=, gender=m, followersCount=0, friendsCount=0, statusesCount=0, favouritesCount=0, createdAt=Tue Jun 19 22:34:49 CST 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2574125704/180/0/1, onlineStatus=0, status=null, biFollowersCount=0, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3488121645906478, createdAt=Sat Sep 08 23:01:08 CST 2012, id=3488121645906478, text=阿杰发了一条微博, source=Source [url=http://open.t.sina.com.cn, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3488121645906478, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
